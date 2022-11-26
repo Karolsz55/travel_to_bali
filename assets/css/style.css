@@ -18,7 +18,7 @@ h2 {
     position: relative;
     z-index: 1;
     color: white;
-    
+
 }
 
 h1 {
@@ -62,7 +62,8 @@ p {
     margin-right: 40px;
 }
 
-#menu a, h2 {
+#menu a,
+h2 {
     text-decoration: none;
     color: inherit;
 }
@@ -107,7 +108,6 @@ p {
     padding-left: 20px;
 
     background-color: rgba(247, 134, 5, 0.6)
-
 }
 
 /* creates zoom out effect for hero image */
@@ -157,7 +157,7 @@ p {
 #how {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 hr {
