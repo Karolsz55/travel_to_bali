@@ -8,8 +8,61 @@
 
 body {
     font-family: 'Karma', serif;
+    color:slategray
 }
 
-header h1 {
+/* logo and headings */
+
+h1, h2 {
+    color:gray
+}
+
+h1 {
     font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Josefin Slab', serif;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+#logo, #menu {
+    line-height: 100px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border: 2px solid slategray;
+    border-radius: 5%;
+    padding: 2px;
+}
+
+.active {
+    border: 2px solid slategray;
+    border-radius: 5%;
+    padding: 2px;
 }
