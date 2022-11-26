@@ -79,7 +79,7 @@ p {
 /* hero image & text overlay */
 
 #hero-image {
-    height: 1200px;
+    height: 1000px;
     width: 100vw;
     z-index: 1000;
     background: url('../images/kelingking-beach-sunset.jpg') no-repeat center center;
@@ -98,7 +98,7 @@ p {
     width: 800px;
     height: 300px;
 
-    bottom: 200px;
+    bottom: 300px;
     left: 100px;
 
     position: absolute;
@@ -122,3 +122,38 @@ p {
     }
 }
 
+/* worth knowing section */
+
+#bali-info h1 {
+    font-size: 300%;
+    color: grey;
+    padding: 30px;
+}
+
+#bali-info {
+    height: 800px;
+}
+
+#worth-knowing {
+    text-align: center;
+    margin: 20px 5% 20px 5%;
+}
+
+#where {
+    width: 33%;
+    padding-top: 50px;
+    float: left;
+}
+
+#when {
+    width: 33%;
+    padding-top: 50px;
+    float: right;
+}
+
+#how {
+    width: 33%;
+    padding-top: 50px;
+    margin: 0 auto;
+
+}
