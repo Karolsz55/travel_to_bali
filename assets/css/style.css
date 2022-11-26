@@ -130,8 +130,13 @@ p {
     padding: 30px;
 }
 
+#bali-info p {
+    margin: 20px 50px 20px 50px;
+}
+
 #bali-info {
     height: 800px;
+    width: 100vw;
 }
 
 #worth-knowing {
@@ -141,19 +146,26 @@ p {
 
 #where {
     width: 33%;
-    padding-top: 50px;
     float: left;
 }
 
 #when {
     width: 33%;
-    padding-top: 50px;
     float: right;
 }
 
 #how {
     width: 33%;
-    padding-top: 50px;
     margin: 0 auto;
+    
+}
 
+hr {
+    border: 1px solid grey;
+    margin: 5px 50px 5px 50px
+}
+
+.info-heading {
+    text-align: center;
+    line-height: 20px;
 }
