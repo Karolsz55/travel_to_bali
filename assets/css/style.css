@@ -17,7 +17,8 @@ h1,
 h2 {
     position: relative;
     z-index: 1;
-    color: white
+    color: white;
+    
 }
 
 h1 {
@@ -29,52 +30,53 @@ h2 {
     font-family: 'Josefin Slab', serif;
 }
 
+p {
+    font-family: 'Karma', serif;
+}
+
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 400%;
+    margin-left: 20px
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 120%;
-    width: 100%;
+    font-size: 110%;
+    width: 100vw;
     text-align: center;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     color: white;
 }
 
 #logo,
 #menu {
-    line-height: 100px;
+    line-height: 80px;
 }
 
 #menu li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
-#menu a {
+#menu a, h2 {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
-    border: 2px solid white;
-    border-radius: 5%;
-    padding: 2px;
+#menu h2:hover {
     cursor: pointer;
+    border-bottom: 2px solid white
 }
 
 .active {
-    border: 2px solid white;
-    border-radius: 5%;
-    padding: 2px;
+    border-bottom: 2px solid white
 }
 
-/* hero image */
+/* hero image & text overlay */
 
 #hero-image {
     height: 1200px;
@@ -89,6 +91,25 @@ h2 {
     animation-duration: 5s;
 }
 
+#overlay {
+    color: white;
+    font-size: 120%;
+
+    width: 800px;
+    height: 300px;
+
+    bottom: 200px;
+    left: 100px;
+
+    position: absolute;
+
+    padding-top: 40px;
+    padding-left: 20px;
+
+    background-color: rgba(247, 134, 5, 0.6)
+
+}
+
 /* creates zoom out effect for hero image */
 
 @keyframes hero-zoom-out {
@@ -100,3 +121,4 @@ h2 {
         transform: scale(1);
     }
 }
+
