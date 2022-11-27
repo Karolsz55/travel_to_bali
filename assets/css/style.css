@@ -60,6 +60,7 @@ p {
 #logo,
 #menu {
     line-height: 80px;
+    padding-bottom: 10px;
 }
 
 #menu li {
