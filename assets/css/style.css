@@ -15,6 +15,7 @@ body,
 html {
     height: 100%;
     width: 100%;
+    background-image: url(/assets/images/leaf-pattern-sepia-light.jpg);
 }
 
 /* logo and headings */
@@ -255,12 +256,10 @@ footer>ul {
 
 .grid-container>div {
     height: 100%;
-    width: 66%;
+    width: 100%;
     position: relative;
-    background-color: aqua;
     border: 1px solid black;
     margin: 0 auto;
-    padding-bottom: 10px;
 }
 
 .grid-container>div>h2 {
@@ -270,7 +269,14 @@ footer>ul {
 
 .grid-container>div>img {
     width: 80%;
-    height: 80%;
+    height: 400px;
     position: relative;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.grid-container>div>p {
+    text-align: center;
+    width: 80%;
     margin-left: 10%;
 }
