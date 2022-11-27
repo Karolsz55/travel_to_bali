@@ -8,9 +8,13 @@
 
 body {
     font-family: 'Karma', serif;
-    width: 100%;
     color: grey
+}
 
+body,
+html {
+    height: 100%;
+    width: 100%;
 }
 
 /* logo and headings */
@@ -189,11 +193,11 @@ footer {
     height: 100px;
 }
 
-footer > ul {
+footer>ul {
     text-align: center;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -234,4 +238,39 @@ footer > ul {
     width: 70%;
     margin: 0 auto;
     padding-top: 150px;
+}
+
+/* places page */
+
+#places-grid {
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.grid-container>div {
+    height: 100%;
+    width: 66%;
+    position: relative;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.grid-container>div>h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid-container>div>img {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    margin-left: 10%;
 }
