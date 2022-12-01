@@ -36,46 +36,39 @@
                 </li>
                 <li>
                     <a href="gallery.html">
-                        <h2 class="active">Gallery</h2>
+                        <h2>Gallery</h2>
                     </a>
                 </li>
                 <li>
                     <a href="form.html">
-                        <h2>Contact Us</h2>
+                        <h2 class="active">Contact Us</h2>
                     </a>
                 </li>
             </ul>
         </nav>
+
     </header>
-    <section id="photo-gallery">
-        <div class="gallery">
-            <img src="/assets/images/dragon-fruit-pool.jpg" alt="Half of dragon fruit held by person over a pool"
-                title="Dragon fruit">
-            <img src="/assets/images/i-love-bali-sign.jpg" alt="I love Bali sign hanging over rice terraces"
-                title="I Love Bali sign">
-            <img src="/assets/images/chickens-and-bus.jpg" alt="Two roosters in wicker cages with mini-bus behind"
-                title="Roosters in cage">
-            <img src="/assets/images/balinese-temple.jpg" alt="Balinese temple" title="Temple">
-            <img src="/assets/images/hindu-statue.jpg" alt="Hindu statue" title="Hindu statue">
-            <img src="/assets/images/hundu-statue-2.jpg" alt="Hindu statue in holy water temple" title="Hindu statue">
-            <img src="/assets/images/balinese-shrine.jpg" alt="Balinese shrine at banana plantation"
-                title="Balinese shrine">
-            <img src="/assets/images/balinese-offering.jpg" alt="Balinese food and incense offering on the shrine"
-                title="Balinese offering">
-            <img src="/assets/images/waterfall.jpg" alt="View at the river basin and waterfall" title="Waterfall">
-            <img src="/assets/images/balinese-temple-2.jpg" alt="View at the gate in holy water tempel in Bali"
-                title="Balinese gate">
-            <img src="/assets/images/restaurant-at-night.jpg" alt="Busy restaurant in Bali at night"
-                title="Restaurant in Canggu">
-            <img src="/assets/images/ocean-view-from-boat.jpg"
-                alt="Ocean view with many boats seen from small motor boat" title="Ocean view and boats">
-            <img src="/assets/images/busy-street-and-scooters.jpg"
-                alt="Busy street with tens of scooters parked nera sidewalk" title="Street with scooters">
-            <img src="/assets/images/beach-at-night.jpg" alt="Canggu beach at night" title="Beach in Canggu at night">
-            <img src="/assets/images/path-through-banana-plantation.jpg"
-                alt="Narrow concrete path through banana plantation" title="Walkway through plantation">
-        </div>
+
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Got any more questions about Bali?</h2>
+
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+
+            <label for="question-box">If you have more questions about Bali, please type them in the below box and a member of our team will contact you.</label>
+            <textarea name="question_box" id="question-box" cols="50" rows="10"></textarea>
+
+            <input class="join-button" type="submit" value="Submit">
+        </form>
     </section>
+
     <footer>
         <ul class="social-media">
             <li><a href="https://facebook.com" target="_blank" rel="noopener"
