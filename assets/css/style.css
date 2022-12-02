@@ -15,7 +15,7 @@ body,
 html {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/leaf-pattern-sepia-light.jpg);
+    background-image: url('../../assets/images/leaf-pattern-sepia-light.jpg');
 }
 
 /* logo and headings */
