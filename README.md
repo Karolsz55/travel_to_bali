@@ -7,9 +7,12 @@ things worth knowing such as, weather tips, information on flights and location 
 This website is targeted to all people interested in visiting Bali either for a short term stay or long holiday.
 
 ## Features
-  
-  
+*** 
 - Navigation
+    * Located at the top of the page, navigation shows website logo in the left corner, that when clicked sends you to landing page.
+    * Also located at the top of the page in the centre located are other links: Home, Places, Gallery and Contact us linking different sections of the page.
+    * Navigation bar is easy to find at the top of the page and consistent throughout all the sections, font is clear and well contrasting with the background.
+    * Navigation links cleary label sections of the page e. g. Gallery opens a photo gallery section, while Contact Us opens contact form section.
 
 
 ```bash
